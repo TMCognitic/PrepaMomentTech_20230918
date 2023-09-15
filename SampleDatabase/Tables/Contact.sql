@@ -16,5 +16,5 @@ CREATE TRIGGER [dbo].[CTR_IO_Contact_Delete]
     AS
     BEGIN
         SET NoCount ON
-        UPDATE Contact SET ACTIF = 0 WHERE Id In (SELECT Id FROM deleted) 
+        UPDATE Contact SET Actif = 0 WHERE Id In (SELECT Id FROM deleted) 
     END

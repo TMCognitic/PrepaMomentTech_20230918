@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [AppUserSchema].[CSP_AllContact]
+﻿CREATE PROCEDURE [AppUserSchema].[CSP_AllContacts]
 	@All bit = 0
 AS
 BEGIN

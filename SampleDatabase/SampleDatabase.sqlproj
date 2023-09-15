@@ -67,7 +67,7 @@
     <Build Include="Security\Schemas\AppUserSchema.sql" />
     <Build Include="Security\Roles\AppUserRole.sql" />
     <Build Include="Tables\Contact.sql" />
-    <Build Include="Procedures\CSP_AllContact.sql" />
+    <Build Include="Procedures\CSP_AllContacts.sql" />
     <Build Include="Procedures\CSP_ContactById.sql" />
     <Build Include="Procedures\CSP_UpdateContact.sql" />
     <Build Include="Procedures\CSP_DeleteContact.sql" />
